@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <!-- <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" /> -->
+</head>
+
+<body>
+  
+  </header>
+  <section class="todo-outer">
+    
+          <h1>Welcome in Todo List Application</h1>
+          <div class="todo-inner">
+            <div class="form-row">
+              <div>
+                <input type="text" placeholder="Enter your task" id="addtaskinput" />
+                <input type="hidden" id="saveindex">
+              </div>
+              <button type="button"  id="addtaskbtn">
+                Add Task
+              </button>
+              <button type="button"  id="savetaskbtn" style="display: none;">
+                Save Task
+              </button>
+              <button type="button" id="deleteallbtn">
+                Delete All
+              </button>
+            </div>
+            <div class="to-do-output">
+              <table id="addedtasklist">
+                
+              </table>
+            </div>
+          </div>
+        
+  </section>
+  <script src="./todo_list_main.js"></script>
+</body>
+
+</html>
